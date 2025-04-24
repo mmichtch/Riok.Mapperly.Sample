@@ -8,7 +8,7 @@ public class Car
 
     public CarColor Color { get; set; }
 
-    public Manufacturer? Manufacturer { get; set; }
+    public Manufacturer Manufacturer { get; set; }
 
     public List<Tire> Tires { get; } = [];
 }

@@ -8,9 +8,9 @@ public class CarDto
 
     public CarColorDto Color { get; set; }
 
-    public ProducerDto? Producer { get; set; }
+    public ProducerDto Producer { get; set; }
 
-    public List<TireDto>? Tires { get; set; }
+    public List<TireDto> Tires { get; set; }
 }
 
 // Intentionally use different numeric values for demonstration purposes
